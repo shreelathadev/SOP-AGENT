@@ -31,3 +31,5 @@ def check_grounding(sop, source: str) -> list[str]:
     for i, e in enumerate(sop.exceptions, 1):
         warnings += _check_item(f"Exception {i}", e.source_quote, e.owner, src)
     return warnings
+
+
