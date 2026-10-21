@@ -1,5 +1,6 @@
 import streamlit as st
 from agent import extract, find_gaps, refine, to_markdown
+from grounding import check_grounding
 from pdf_export import to_pdf_bytes
 
 st.set_page_config(page_title="SOP Creation Agent", page_icon="📋", layout="wide")
@@ -31,6 +32,7 @@ raw = st.text_area(
 if st.button("Generate SOP", type="primary"):
     with st.spinner("Extracting SOP and checking for gaps..."):
         s.sop = extract(raw)
+        s.source = raw          # everything the SOP is allowed to be based on
         s.questions = find_gaps(s.sop)
         s.round += 1
 
@@ -40,6 +42,13 @@ if "sop" in s:
     with left:
         st.subheader("Current SOP")
         md = to_markdown(s.sop)
+        warnings = check_grounding(s.sop, s.source)
+        if warnings:
+            with st.expander(f"⚠️ {len(warnings)} item(s) to verify against your source text"):
+                for w in warnings:
+                    st.write("- " + w)
+        else:
+            st.success("Every step is backed by a quote from your source text.")
         st.markdown(md)
         d1, d2 = st.columns(2)
         d1.download_button("Download Markdown", md, file_name="sop.md")
@@ -59,6 +68,7 @@ if "sop" in s:
             if qa:
                 with st.spinner("Updating SOP..."):
                     s.sop = refine(s.sop, qa)
+                    s.source += "\n" + "\n".join(f"{q} {a}" for q, a in qa)
                     s.questions = find_gaps(s.sop)
                     s.round += 1
                 st.rerun()

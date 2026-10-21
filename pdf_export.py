@@ -38,11 +38,12 @@ def to_pdf_bytes(sop: SOP) -> bytes:
     h2("2. Scope"); p(sop.scope)
 
     h2("3. Roles and Responsibilities")
-    if sop.roles:
-        for r in sop.roles:
-            p(f"- {r.role}: {r.responsibility}")
+    roles = sop.roles()
+    if roles:
+        for role, text in roles:
+            p(f"- {role}: {text}")
     else:
-        p("Not specified")
+        p("No owners identified yet")
 
     h2("4. Prerequisites")
     if sop.prerequisites:
@@ -74,7 +75,12 @@ def to_pdf_bytes(sop: SOP) -> bytes:
     h2("7. Exceptions and Troubleshooting")
     if sop.exceptions:
         for e in sop.exceptions:
-            p(f"- If {e.situation}: {e.action or 'Not defined'}")
+            line = f"- If {e.situation}: {e.action or 'Not defined'}"
+            if e.owner:
+                line += f" (Owner: {e.owner})"
+            if e.timeline:
+                line += f" [{e.timeline}]"
+            p(line)
     else:
         p("None specified")
 
