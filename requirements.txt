@@ -1,0 +1,6 @@
+streamlit
+pydantic
+fpdf2
+google-genai
+anthropic
+openai
