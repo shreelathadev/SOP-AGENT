@@ -8,6 +8,19 @@ import re
 PROVIDER = os.getenv("LLM_PROVIDER", "gemini").lower()
 
 
+def _gemini_text(r) -> str:
+    """Join the text parts of a Gemini reply, skipping 'thought' parts, so the SDK's
+    'non-text parts' warning never appears and thoughts never leak into the JSON."""
+    try:
+        parts = r.candidates[0].content.parts
+        text = "".join(p.text for p in parts if getattr(p, "text", None) and not getattr(p, "thought", False))
+        if text:
+            return text
+    except Exception:
+        pass
+    return r.text
+
+
 def _raw_call(system: str, user: str) -> str:
     if PROVIDER == "gemini":
         from google import genai
@@ -18,7 +31,7 @@ def _raw_call(system: str, user: str) -> str:
             config={"system_instruction": system,
                     "response_mime_type": "application/json"},
         )
-        return r.text
+        return _gemini_text(r)
     if PROVIDER == "anthropic":
         import anthropic
         client = anthropic.Anthropic()  # reads ANTHROPIC_API_KEY

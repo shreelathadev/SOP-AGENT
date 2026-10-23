@@ -1,0 +1,16 @@
+Employee Onboarding and IT Access Provisioning Workflow
+
+When HR hires a new candidate, HR sends the signed offer letter to the IT support desk at least 3 days before the join date. The IT admin then creates the employee's company email account and generates a temporary password.
+
+On day 1, HR conducts the orientation session in the morning and hands over the welcome kit. HR also notifies the IT team once orientation is complete. 
+
+After notification, IT grants access to internal tools (Slack, Google Workspace, and Jira) based on the role specified in the offer letter. If the employee is in engineering, IT assigns access to GitHub repositories, but the Lead Engineer must approve repository access first. 
+
+Equipment Handover:
+IT hands over the laptop and setup instructions to the candidate. The candidate must sign an asset tracking sheet. If equipment is unavailable on day 1, IT issues a temporary loaner device within 4 hours.
+
+Background Verification & Document Collection:
+HR collects police verification and degree certificates within 7 days of joining. If documents are missing after 7 days, HR sends a reminder and gives a grace period of 3 days. If still not submitted, HR escalates to the HR Manager for account suspension.
+
+Security Training:
+The employee must complete the mandatory cybersecurity training module within their first 14 days. Compliance team monitors progress.

@@ -1,6 +1,8 @@
 streamlit
 pydantic
 fpdf2
+pypdf
+python-docx
 google-genai
 anthropic
 openai

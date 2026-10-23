@@ -1,0 +1,1055 @@
+
+  run 1: 12/12 facts, invented owners: [], owner violations: []
+  run 2: 12/12 facts, invented owners: [], owner violations: []
+    missed: []
+
+    --- SOP from this run ---
+    # SOP: Property Inquiry and Sales
+
+    ## 1. Purpose
+    To manage property inquiries from initial contact through to booking and invoicing.
+
+    ## 2. Scope
+    Applies to new property inquiries coming in from 99acres, MagicBricks, or the website.
+
+    ## 3. Roles and Responsibilities
+    | Role | Responsibilities (from the steps) |
+    |---|---|
+    | sales exec | Call the person; Mark the person as warm; Fix a site visit |
+    | exec | Confirm the visit |
+    | manager | Approve the discount |
+    | accounts team | Create the invoice |
+
+    ## 4. Prerequisites
+    _None specified_
+
+    ## 5. Definitions and Criteria
+    - Warm: a lead who is interested and for whom a site visit is fixed
+    - Hot leads: the ones who ask for price negotiation
+    - Cold: a lead where nothing happens for a month
+    - Closed-won: the status marked once the client pays the booking amount and signs the agreement
+
+    ## 6. Procedure
+    1. Call the person *(Owner: sales exec)* **[within an hour]**
+    2. Mark the person as warm *(If the person is interested)* *(Owner: sales exec)*
+    3. Fix a site visit *(If the person is interested)* *(Owner: sales exec)*
+    4. Confirm the visit *(Owner: exec)* **[the day before]**
+    5. Send the quotation *(If the client likes the property)* **[after the visit]**
+    6. Follow up *(If the client likes the property)* **[every 2-3 days]**
+    7. Approve the discount *(If the discount is above 2%)* *(Owner: manager)*
+    8. Move the lead to cold *(If nothing happens)* **[for a month]**
+    9. Mark the deal closed-won *(If the client pays the booking amount and signs the agreement)*
+    10. Create the invoice *(If the client pays the booking amount and signs the agreement)* *(Owner: accounts team)*
+
+    ## 7. Exceptions and Troubleshooting
+    | Situation | Action | Owner | Timeline |
+    |---|---|---|---|
+    | the person does not pick up | Try again later | _Not defined_ | _Not defined_ |
+    | the client doesn't show up for the site visit | _Not defined_ | _Not defined_ | _Not defined_ |
+
+    ## 8. Review Information
+    _Not specified_
+    warning: Step 2: owner 'sales exec' is not named in its quote or in your answers (inferred?)
+    warning: Step 3: owner 'sales exec' is not named in its quote or in your answers (inferred?)
+
+  run 3: 12/12 facts, invented owners: [], owner violations: []
+  run 4: 12/12 facts, invented owners: [], owner violations: []
+    missed: []
+
+    --- SOP from this run ---
+    # SOP: Property Inquiry and Sales
+
+    ## 1. Purpose
+    Handle incoming property inquiries from lead generation to booking.
+
+    ## 2. Scope
+    Applies to new property inquiries coming in from 99acres, MagicBricks, or the website.
+
+    ## 3. Roles and Responsibilities
+    | Role | Responsibilities (from the steps) |
+    |---|---|
+    | sales exec | Call the person; Mark the person as warm; Fix a site visit |
+    | exec | Confirm the visit |
+    | manager | Approve the discount |
+    | accounts team | Create the invoice |
+
+    ## 4. Prerequisites
+    _None specified_
+
+    ## 5. Definitions and Criteria
+    - Warm: person is interested and a site visit is fixed
+    - Hot leads: the ones who ask for price negotiation
+    - Closed-won: the client pays the booking amount and signs the agreement
+    - Cold: nothing happens for a month
+
+    ## 6. Procedure
+    1. Call the person *(Owner: sales exec)* **[within an hour]**
+       - Note: Applies to a new property inquiry coming in from 99acres, MagicBricks or our website
+    2. Mark the person as warm *(If the person is interested)* *(Owner: sales exec)*
+    3. Fix a site visit *(If the person is interested)* *(Owner: sales exec)*
+    4. Confirm the visit *(Owner: exec)* **[the day before]**
+    5. Send the quotation *(If the client likes the property)* **[after the visit]**
+    6. Follow up *(If the client likes the property)* **[every 2-3 days]**
+    7. Approve the discount *(If any discount is above 2%)* *(Owner: manager)*
+    8. Move the lead to cold *(If nothing happens for a month)*
+    9. Mark the lead closed-won *(If the client pays the booking amount and signs the agreement)*
+    10. Create the invoice *(If the client pays the booking amount and signs the agreement)* *(Owner: accounts team)*
+
+    ## 7. Exceptions and Troubleshooting
+    | Situation | Action | Owner | Timeline |
+    |---|---|---|---|
+    | the person doesn't pick up | Try again later | _Not defined_ | _Not defined_ |
+    | the client doesn't show up for the site visit | _Not defined_ | _Not defined_ | _Not defined_ |
+
+    ## 8. Review Information
+    _Not specified_
+    warning: Step 2: owner 'sales exec' is not named in its quote or in your answers (inferred?)
+    warning: Step 3: owner 'sales exec' is not named in its quote or in your answers (inferred?)
+
+  run 5: 11/12 facts, invented owners: [], owner violations: []
+    missed: ['retry when no pickup']
+
+    --- SOP from this run ---
+    # SOP: Property Inquiry and Sales Conversion
+
+    ## 1. Purpose
+    Manage property inquiries from initial contact through site visit and quotation to closing the sale.
+
+    ## 2. Scope
+    Applies to new property inquiries coming in from 99acres, MagicBricks, or the website.
+
+    ## 3. Roles and Responsibilities
+    | Role | Responsibilities (from the steps) |
+    |---|---|
+    | sales exec | Call the person; Confirm the visit |
+    | manager | Approve the discount |
+    | accounts team | Create the invoice |
+
+    ## 4. Prerequisites
+    _None specified_
+
+    ## 5. Definitions and Criteria
+    - Warm: the person is interested and a site visit is fixed
+    - Hot leads: the ones who ask for price negotiation
+    - Cold: nothing happens for a month
+    - Closed-won: the client pays the booking amount and signs the agreement
+
+    ## 6. Procedure
+    1. Call the person *(Owner: sales exec)* **[within an hour]**
+    2. Mark the person as warm *(If the person is interested)*
+    3. Fix a site visit *(If the person is interested)*
+    4. Confirm the visit *(Owner: sales exec)* **[the day before]**
+    5. Send the quotation *(If the client likes the property)*
+    6. Follow up *(If the client likes the property)* **[every 2-3 days]**
+    7. Approve the discount *(If any discount above 2%)* *(Owner: manager)*
+    8. Move the lead to cold *(If nothing happens for a month)*
+    9. Mark the lead closed-won *(If the client pays the booking amount and signs the agreement)*
+    10. Create the invoice *(If the client pays the booking amount and signs the agreement)* *(Owner: accounts team)*
+
+    ## 7. Exceptions and Troubleshooting
+    | Situation | Action | Owner | Timeline |
+    |---|---|---|---|
+    | The person doesn't pick up | _Not defined_ | _Not defined_ | _Not defined_ |
+    | The client doesn't show up for the site visit | _Not defined_ | _Not defined_ | _Not defined_ |
+
+    ## 8. Review Information
+    _Not specified_
+
+  run 6: 11/12 facts, invented owners: [], owner violations: []
+    missed: ['retry when no pickup']
+
+    --- SOP from this run ---
+    # SOP: Property Inquiry Management and Sales Conversion
+
+    ## 1. Purpose
+    To manage property inquiries from initial contact through site visit, quotation, negotiation, and closing.
+
+    ## 2. Scope
+    Applies to new property inquiries coming in from 99acres, MagicBricks, or the website.
+
+    ## 3. Roles and Responsibilities
+    | Role | Responsibilities (from the steps) |
+    |---|---|
+    | sales exec | Call the person; Confirm the visit |
+    | manager | Approve the discount |
+    | accounts team | Create the invoice |
+
+    ## 4. Prerequisites
+    _None specified_
+
+    ## 5. Definitions and Criteria
+    - warm: The person is interested after the initial call.
+    - Hot leads: Leads who ask for price negotiation.
+    - cold: No activity happens for a month.
+    - closed-won: The client pays the booking amount and signs the agreement.
+
+    ## 6. Procedure
+    1. Call the person *(If a new property inquiry comes in from 99acres, MagicBricks or our website)* *(Owner: sales exec)* **[within an hour]**
+    2. Mark the person as warm *(If the person is interested)*
+    3. Fix a site visit *(If the person is interested)*
+    4. Confirm the visit *(Owner: sales exec)* **[the day before]**
+    5. Send the quotation *(If the client likes the property)*
+    6. Follow up on the quotation *(If the client likes the property)* **[every 2-3 days]**
+    7. Approve the discount *(If any discount is above 2%)* *(Owner: manager)*
+    8. Mark the lead as cold *(If nothing happens for a month)*
+    9. Mark the lead closed-won *(If the client pays the booking amount and signs the agreement)*
+    10. Create the invoice *(If the client pays the booking amount and signs the agreement)* *(Owner: accounts team)*
+
+    ## 7. Exceptions and Troubleshooting
+    | Situation | Action | Owner | Timeline |
+    |---|---|---|---|
+    | the person doesn't pick up | _Not defined_ | _Not defined_ | later |
+    | the client doesn't show up for the site visit | _Not defined_ | _Not defined_ | _Not defined_ |
+
+    ## 8. Review Information
+    _Not specified_
+
+  run 7: 12/12 facts, invented owners: [], owner violations: []
+  run 8: 12/12 facts, invented owners: [], owner violations: []
+  run 9: 12/12 facts, invented owners: [], owner violations: []
+  run 10: 12/12 facts, invented owners: [], owner violations: []
+    missed: []
+
+    --- SOP from this run ---
+    # SOP: Property Inquiry and Sales Conversion
+
+    ## 1. Purpose
+    To manage property inquiries from initial contact through site visits, quotations, negotiations, and closing.
+
+    ## 2. Scope
+    Applies to new property inquiries coming in from 99acres, MagicBricks, or the website.
+
+    ## 3. Roles and Responsibilities
+    | Role | Responsibilities (from the steps) |
+    |---|---|
+    | sales exec | Call the person; Mark the lead as warm; Fix a site visit; Confirm the visit |
+    | manager | Approve the discount |
+    | accounts team | Create the invoice |
+
+    ## 4. Prerequisites
+    _None specified_
+
+    ## 5. Definitions and Criteria
+    - Warm: Person is interested and a site visit is fixed
+    - Hot leads: Leads who ask for price negotiation
+    - Cold: Lead with no activity for a month
+    - Closed-won: Client pays the booking amount and signs the agreement
+
+    ## 6. Procedure
+    1. Call the person *(Owner: sales exec)* **[within an hour]**
+    2. Mark the lead as warm *(If the person is interested)* *(Owner: sales exec)*
+    3. Fix a site visit *(If the person is interested)* *(Owner: sales exec)*
+    4. Confirm the visit *(Owner: sales exec)* **[the day before]**
+    5. Send the quotation *(If the client likes the property)*
+    6. Follow up on the quotation **[every 2-3 days]**
+    7. Approve the discount *(If any discount above 2%)* *(Owner: manager)*
+    8. Move the lead to cold *(If nothing happens for a month)*
+    9. Mark the deal as closed-won *(If the client pays the booking amount and signs the agreement)*
+    10. Create the invoice *(Owner: accounts team)*
+
+    ## 7. Exceptions and Troubleshooting
+    | Situation | Action | Owner | Timeline |
+    |---|---|---|---|
+    | The person doesn't pick up | Try calling again later | _Not defined_ | _Not defined_ |
+    | The client doesn't show up for the site visit | _Not defined_ | _Not defined_ | _Not defined_ |
+
+    ## 8. Review Information
+    _Not specified_
+    warning: Step 2: owner 'sales exec' is not named in its quote or in your answers (inferred?)
+    warning: Step 3: owner 'sales exec' is not named in its quote or in your answers (inferred?)
+
+
+== real_estate_crm ==
+recall: 98% average over 10 run(s)
+invented owners: 0 | owner-rule violations: 0 | avg quote warnings: 0.6
+  MISSED 2/10 runs: retry when no pickup
+
+  run 1: 16/16 facts, invented owners: [], owner violations: []
+  run 2: 16/16 facts, invented owners: [], owner violations: []
+  run 3: 16/16 facts, invented owners: [], owner violations: []
+  run 4: 16/16 facts, invented owners: [], owner violations: []
+  run 5: 16/16 facts, invented owners: [], owner violations: []
+  run 6: 16/16 facts, invented owners: [], owner violations: []
+  run 7: 16/16 facts, invented owners: [], owner violations: []
+  run 8: 16/16 facts, invented owners: [], owner violations: []
+  run 9: 16/16 facts, invented owners: [], owner violations: []
+  run 10: 16/16 facts, invented owners: [], owner violations: []
+
+== employee_onboarding ==
+recall: 100% average over 10 run(s)
+invented owners: 0 | owner-rule violations: 0 | avg quote warnings: 0.0
+
+  run 1: 22/23 facts, invented owners: [], owner violations: []
+    missed: ['CRM assigns lead round-robin']
+
+    --- SOP from this run ---
+    # SOP: Lead Management and Site Visit Process
+
+    ## 1. Purpose
+    Handles buyer leads for the Greenfield Heights project, from the first enquiry to booking.
+
+    ## 2. Scope
+    Buyer leads for the Greenfield Heights project
+
+    ## 3. Roles and Responsibilities
+    | Role | Responsibilities (from the steps) |
+    |---|---|
+    | front desk | Log every walk-in lead inezers the CRM |
+    | assigned SE | Call the lead; Try calling the lead twice more on the same day, at least 2 hours apart; Send the brochure on WhatsApp; Note the budget, the preferred unit size (2 BHK or 3 BHK) and the purchase timeline; Book a site visit; Send a confirmation on WhatsApp; Send a reminder; Reschedule the visit once; Share the cost sheet by email; Offer the discount directly; Collect the token amount of Rs. 1 lakh and the KYC documents (PAN, Aadhaar and address proof); Follow up with the lead; Give the client 5 days to submit them (if the KYC documents are incomplete); Contact the client (if a payment fails or bounces) |
+    | Team Lead | Go through the nurture list |
+    | Site Coordinator | Arrange the cab |
+    | Sales Manager | Approve the discount |
+    | Business Head | Approve the discount |
+    | Finance team | Verify the payment and issue the receipt |
+    | Legal team | Prepare the Agreement for Sale |
+    | Finance | Inform the SE immediately (if a payment fails or bounces) |
+
+    ## 4. Prerequisites
+    _None specified_
+
+    ## 5. Definitions and Criteria
+    - Qualified means the budget is at least Rs. 60 lakh and the client plans to buy within 6 months
+    - Unreachable means the lead did not answer after 3 failed attempts and was moved to the nurture list
+    - Booked means the receipt is issued and the CRM status is changed to Booked
+    - Lost means there is no progress after 60 days and the reason is recorded
+
+    ## 6. Procedure
+    1. Log every walk-in lead inezers the CRM *(Owner: front desk)* **[the same day]**
+    2. Call the lead *(Owner: assigned SE)* **[within 30 minutes during working hours (10 AM to 7 PM)]**
+    3. Call the lead *(If leads that come in after hours)* **[by 11 AM the next day]**
+    4. Try calling the lead twice more on the same day, at least 2 hours apart *(If the lead does not answer)* *(Owner: assigned SE)* **[the same day, at least 2 hours apart]**
+    5. Send the brochure on WhatsApp *(If the lead does not answer)* *(Owner: assigned SE)*
+    6. Mark the lead Unreachable and move it to the nurture list *(If 3 failed attempts)*
+    7. Go through the nurture list *(Owner: Team Lead)* **[every Monday]**
+    8. Note the budget, the preferred unit size (2 BHK or 3 BHK) and the purchase timeline *(If the first call)* *(Owner: assigned SE)*
+    9. Book a site visit *(If qualified leads)* *(Owner: assigned SE)* **[within 3 days]**
+    10. Arrange the cab *(If the client asks for a pickup)* *(Owner: Site Coordinator)*
+    11. Send a confirmation on WhatsApp *(Owner: assigned SE)* **[24 hours before the visit]**
+    12. Send a reminder *(Owner: assigned SE)* **[2 hours before]**
+    13. Reschedule the visit once *(If the client misses the visit)* *(Owner: assigned SE)*
+    14. Move the lead back to Nurture *(If they miss it again)*
+    15. Enter feedback in the CRM *(If after a visit)* **[the same day]**
+    16. Share the cost sheet by email *(Owner: assigned SE)* **[within 24 hours of the visit]**
+    17. Offer the discount directly *(If up to 2%)* *(Owner: assigned SE)*
+    18. Approve the discount *(If above 2% and up to 5%)* *(Owner: Sales Manager)*
+    19. Approve the discount *(If above 5%)* *(Owner: Business Head)*
+    20. Collect the token amount of Rs. 1 lakh and the KYC documents (PAN, Aadhaar and address proof) *(If the client agrees to book)* *(Owner: assigned SE)*
+    21. Verify the payment and issue the receipt *(Owner: Finance team)* **[within 1 working day]**
+    22. Change the CRM status to Booked *(If the receipt is issued)*
+    23. Prepare the Agreement for Sale *(Owner: Legal team)* **[within 7 days of booking]**
+    24. Follow up with the lead *(If leads who visited but have not booked)* *(Owner: assigned SE)* **[every 3 days for 2 weeks, and then once a week until day 60]**
+    25. Mark the lead Lost and record the reason *(If there is no progress after 60 days)*
+
+    ## 7. Exceptions and Troubleshooting
+    | Situation | Action | Owner | Timeline |
+    |---|---|---|---|
+    | the KYC documents are incomplete | Give the client 5 days to submit them | assigned SE | 5 days |
+    | a payment fails or bounces | Inform the SE immediately | Finance | immediately |
+    | a payment fails or bounces | Contact the client | assigned SE | _Not defined_ |
+
+    ## 8. Review Information
+    _Not specified_
+
+  run 2: 22/23 facts, invented owners: [], owner violations: []
+    missed: ['CRM assigns lead round-robin']
+
+    --- SOP from this run ---
+    # SOP: Lead Management and Site Visit Process
+
+    ## 1. Purpose
+    Describes how our sales team handles buyer leads for the Greenfield Heights project, from the first enquiry to booking.
+
+    ## 2. Scope
+    Applies to buyer leads for the Greenfield Heights project.
+
+    ## 3. Roles and Responsibilities
+    | Role | Responsibilities (from the steps) |
+    |---|---|
+    | front desk | Log every walk-in lead in the CRM on the same day |
+    | assigned SE | Call the lead |
+    | SE | Try calling twice more on the same day; Send the brochure on WhatsApp; Note the budget, the preferred unit size (2 BHK or 3 BHK) and the purchase timeline; Book a site visit; Send a confirmation on WhatsApp; Send a reminder; Reschedule the visit; Share the cost sheet by email; Offer the discount directly; Collect the token amount of Rs. 1 lakh and the KYC documents (PAN, Aadhaar and address proof); Follow up with leads who visited but have not booked; Give the client 5 days to submit them (if the KYC documents are incomplete); Contact the client (if a payment fails or bounces) |
+    | Team Lead | Go through the nurture list |
+    | Site Coordinator | Arrange the cab |
+    | Sales Manager | Approve the discount |
+    | Business Head | Approve the discount |
+    | Finance team | Verify the payment and issue the receipt |
+    | Legal team | Prepare the Agreement for Sale |
+    | Finance | Informs the SE immediately (if a payment fails or bounces) |
+
+    ## 4. Prerequisites
+    _None specified_
+
+    ## 5. Definitions and Criteria
+    - Unreachable: Lead is marked Unreachable after 3 failed attempts and moved to the nurture list.
+    - Qualified: A lead is Qualified if the budget is at least Rs. 60 lakh and the client plans to buy within 6 months.
+    - Booked: CRM status changed to Booked once the receipt is issued.
+    - Lost: Lead marked Lost and the reason is recorded if there is no progress after 60 days.
+
+    ## 6. Procedure
+    1. Log every walk-in lead in the CRM on the same day *(Owner: front desk)* **[the same day]**
+    2. Call the lead *(Owner: assigned SE)* **[within 30 minutes during working hours (10 AM to 7 PM)]**
+       - Note: Leads that come in after hours are called by 11 AM the next day.
+    3. Try calling twice more on the same day *(If the lead does not answer)* *(Owner: SE)* **[at least 2 hours apart, same day]**
+    4. Send the brochure on WhatsApp *(If the lead does not answer)* *(Owner: SE)*
+    5. Mark the lead Unreachable and move it to the nurture list *(If after 3 failed attempts)*
+    6. Go through the nurture list *(Owner: Team Lead)* **[every Monday]**
+    7. Note the budget, the preferred unit size (2 BHK or 3 BHK) and the purchase timeline *(Owner: SE)* **[during the first call]**
+    8. Book a site visit *(If the lead is Qualified)* *(Owner: SE)* **[within 3 days]**
+    9. Arrange the cab *(If the client asks for a pickup)* *(Owner: Site Coordinator)*
+    10. Send a confirmation on WhatsApp *(Owner: SE)* **[24 hours before the visit]**
+    11. Send a reminder *(Owner: SE)* **[2 hours before]**
+    12. Reschedule the visit *(If the client misses the visit)* *(Owner: SE)*
+       - Note: Reschedule once.
+    13. Move the lead back to Nurture *(If they miss it again)*
+    14. Enter feedback in the CRM **[the same day]**
+    15. Share the cost sheet by email *(Owner: SE)* **[within 24 hours of the visit]**
+    16. Offer the discount directly *(If up to 2%)* *(Owner: SE)*
+    17. Approve the discount *(If above 2% and up to 5%)* *(Owner: Sales Manager)*
+    18. Approve the discount *(If above 5%)* *(Owner: Business Head)*
+    19. Collect the token amount of Rs. 1 lakh and the KYC documents (PAN, Aadhaar and address proof) *(If the client agrees to book)* *(Owner: SE)*
+    20. Verify the payment and issue the receipt *(Owner: Finance team)* **[within 1 working day]**
+    21. Change the CRM status to Booked **[once the receipt is issued]**
+    22. Prepare the Agreement for Sale *(Owner: Legal team)* **[within 7 days of booking]**
+    23. Follow up with leads who visited but have not booked *(Owner: SE)* **[every 3 days for 2 weeks, and then once a week until day 60]**
+    24. Mark the lead Lost and record the reason *(If there is no progress after 60 days)*
+
+    ## 7. Exceptions and Troubleshooting
+    | Situation | Action | Owner | Timeline |
+    |---|---|---|---|
+    | the KYC documents are incomplete | Give the client 5 days to submit them | SE | _Not defined_ |
+    | a payment fails or bounces | Informs the SE immediately | Finance | immediately |
+    | a payment fails or bounces | Contact the client | SE | _Not defined_ |
+
+    ## 8. Review Information
+    _Not specified_
+
+  run 3: 23/23 facts, invented owners: [], owner violations: []
+    missed: []
+
+    --- SOP from this run ---
+    # SOP: Greenfield Realty - Lead Management and Site Visit Process
+
+    ## 1. Purpose
+    Handles buyer leads for the Greenfield Heights project, from the first enquiry to booking.
+
+    ## 2. Scope
+    Applies to buyer leads for the Greenfield Heights project.
+
+    ## 3. Roles and Responsibilities
+    | Role | Responsibilities (from the steps) |
+    |---|---|
+    | front desk | Log every walk-in lead in the CRM |
+    | assigned SE | Call the lead; Call the lead |
+    | SE | Try calling the lead twice more; Send the brochure on WhatsApp; Note the budget, the preferred unit size (2 BHK or 3 BHK) and the purchase timeline; Book a site visit; Send a confirmation on WhatsApp; Send a reminder; Reschedule; Share the cost sheet by email; Approve the discount; Collect the token amount of Rs. 1 lakh and the KYC documents (PAN, Aadhaar and address proof); Follow up with the lead; Follow up with the lead; Give the client 5 days to submit them (if the KYC documents are incomplete); Contact the client (if a payment fails or bounces) |
+    | Team Lead | Go through the nurture list |
+    | Site Coordinator | Arrange the cab |
+    | Sales Manager | Approve the discount |
+    | Business Head | Approve the discount |
+    | Finance team | Verify the payment and issue the receipt |
+    | Legal team | Prepare the Agreement for Sale |
+    | Finance | Finance informs the SE immediately (if a payment fails or bounces) |
+
+    ## 4. Prerequisites
+    _None specified_
+
+    ## 5. Definitions and Criteria
+    - Qualified: the budget is at least Rs. 60 lakh and the client plans to buy within 6 months
+    - Unreachable: status for leads with 3 failed contact attempts
+    - Booked: CRM status once the receipt is issued
+    - Lost: status for leads with no progress after 60 days
+
+    ## 6. Procedure
+    1. Log every walk-in lead in the CRM *(If leads are walk-ins at the site office)* *(Owner: front desk)* **[on the same day]**
+    2. Assign each lead to a Sales Executive (SE) on a round-robin basis
+    3. Call the lead *(If leads that come in during working hours (10 AM to 7 PM))* *(Owner: assigned SE)* **[within 30 minutes]**
+    4. Call the lead *(If leads that come in after hours)* *(Owner: assigned SE)* **[by 11 AM the next day]**
+    5. Try calling the lead twice more *(If the lead does not answer)* *(Owner: SE)* **[at least 2 hours apart]**
+    6. Send the brochure on WhatsApp *(If the lead does not answer)* *(Owner: SE)*
+    7. Mark the lead Unreachable and move it to the nurture list *(If 3 failed attempts)*
+    8. Go through the nurture list *(Owner: Team Lead)* **[every Monday]**
+    9. Note the budget, the preferred unit size (2 BHK or 3 BHK) and the purchase timeline *(If during the first call)* *(Owner: SE)*
+    10. Book a site visit *(If leads are qualified)* *(Owner: SE)* **[within 3 days]**
+    11. Arrange the cab *(If the client asks for a pickup)* *(Owner: Site Coordinator)*
+    12. Send a confirmation on WhatsApp *(Owner: SE)* **[24 hours before the visit]**
+    13. Send a reminder *(Owner: SE)* **[2 hours before]**
+    14. Reschedule *(If the client misses the visit)* *(Owner: SE)*
+    15. Move the lead back to Nurture *(If they miss it again)*
+    16. Enter feedback in the CRM **[the same day]**
+    17. Share the cost sheet by email *(Owner: SE)* **[within 24 hours of the visit]**
+    18. Approve the discount *(If up to 2%)* *(Owner: SE)*
+    19. Approve the discount *(If above 2% and up to 5%)* *(Owner: Sales Manager)*
+    20. Approve the discount *(If above 5%)* *(Owner: Business Head)*
+    21. Collect the token amount of Rs. 1 lakh and the KYC documents (PAN, Aadhaar and address proof) *(If the client agrees to book)* *(Owner: SE)*
+    22. Verify the payment and issue the receipt *(Owner: Finance team)* **[within 1 working day]**
+    23. Change the CRM status to Booked *(If the receipt is issued)*
+    24. Prepare the Agreement for Sale *(Owner: Legal team)* **[within 7 days of booking]**
+    25. Follow up with the lead *(If leads who visited but have not booked)* *(Owner: SE)* **[every 3 days for 2 weeks]**
+    26. Follow up with the lead *(If leads who visited but have not booked)* *(Owner: SE)* **[once a week until day 60]**
+    27. Mark the lead Lost and record the reason *(If there is no progress after 60 days)*
+
+    ## 7. Exceptions and Troubleshooting
+    | Situation | Action | Owner | Timeline |
+    |---|---|---|---|
+    | the KYC documents are incomplete | Give the client 5 days to submit them | SE | _Not defined_ |
+    | a payment fails or bounces | Finance informs the SE immediately | Finance | immediately |
+    | a payment fails or bounces | Contact the client | SE | _Not defined_ |
+
+    ## 8. Review Information
+    _Not specified_
+    warning: Step 4: owner 'assigned SE' is not named in its quote or in your answers (inferred?)
+
+  run 4: 23/23 facts, invented owners: [], owner violations: []
+    missed: []
+
+    --- SOP from this run ---
+    # SOP: Greenfield Heights Lead Management and Site Visit Process
+
+    ## 1. Purpose
+    Describes how our sales team handles buyer leads for the Greenfield Heights project, from the first enquiry to booking.
+
+    ## 2. Scope
+    Buyer leads for the Greenfield Heights project
+
+    ## 3. Roles and Responsibilities
+    | Role | Responsibilities (from the steps) |
+    |---|---|
+    | front desk | Log every walk-in lead in the CRM |
+    | Sales Executive | Call the lead; Call the lead; Try calling the lead twice more; Send the brochure on WhatsApp; Note the budget, preferred unit size, and purchase timeline; Book a site visit; Send a confirmation on WhatsApp; Send a reminder on WhatsApp; Reschedule the visit; Share the cost sheet by email; Offer discount directly; Collect the token amount of Rs. 1 lakh and the KYC documents; Follow up with the lead; Follow up with the lead; Give the client 5 days to submit them (if the KYC documents are incomplete); Contact the client (if a payment fails or bounces) |
+    | Team Lead | Go through the nurture list |
+    | Site Coordinator | Arrange the cab |
+    | Sales Manager | Approve discount |
+    | Business Head | Approve discount |
+    | Finance team | Verify the payment and issue the receipt |
+    | Legal team | Prepare the Agreement for Sale |
+    | Finance | Inform the SE immediately (if a payment fails or bounces) |
+
+    ## 4. Prerequisites
+    _None specified_
+
+    ## 5. Definitions and Criteria
+    - Unreachable: The lead is marked Unreachable after 3 failed contact attempts and moved to the nurture list.
+    - Qualified: A lead is Qualified if the budget is at least Rs. 60 lakh and the client plans to buy within 6 months.
+    - Booked: The CRM status is changed to Booked once the receipt is issued by the Finance team.
+    - Lost: The lead is marked Lost if there is no progress after 60 days.
+
+    ## 6. Procedure
+    1. Log every walk-in lead in the CRM *(Owner: front desk)* **[on the same day]**
+    2. Assign each lead to a Sales Executive on a round-robin basis
+    3. Call the lead *(If working hours)* *(Owner: Sales Executive)* **[within 30 minutes]**
+       - Note: 10 AM to 7 PM
+    4. Call the lead *(If leads that come in after hours)* *(Owner: Sales Executive)* **[by 11 AM the next day]**
+    5. Try calling the lead twice more *(If the lead does not answer)* *(Owner: Sales Executive)* **[at least 2 hours apart]**
+       - Note: on the same day
+    6. Send the brochure on WhatsApp *(If the lead does not answer)* *(Owner: Sales Executive)*
+    7. Mark the lead Unreachable and move it to the nurture list *(If after 3 failed attempts)*
+    8. Go through the nurture list *(Owner: Team Lead)* **[every Monday]**
+    9. Note the budget, preferred unit size, and purchase timeline *(If during the first call)* *(Owner: Sales Executive)*
+       - Note: 2 BHK or 3 BHK
+    10. Book a site visit *(If for qualified leads)* *(Owner: Sales Executive)* **[within 3 days]**
+    11. Arrange the cab *(If the client asks for a pickup)* *(Owner: Site Coordinator)*
+    12. Send a confirmation on WhatsApp *(Owner: Sales Executive)* **[24 hours before the visit]**
+    13. Send a reminder on WhatsApp *(Owner: Sales Executive)* **[2 hours before the visit]**
+    14. Reschedule the visit *(If the client misses the visit)* *(Owner: Sales Executive)*
+       - Note: once
+    15. Move the lead back to Nurture *(If they miss it again)*
+    16. Enter feedback in the CRM *(If after a visit)* **[the same day]**
+    17. Share the cost sheet by email *(Owner: Sales Executive)* **[within 24 hours of the visit]**
+    18. Offer discount directly *(If up to 2%)* *(Owner: Sales Executive)*
+    19. Approve discount *(If above 2% and up to 5%)* *(Owner: Sales Manager)*
+    20. Approve discount *(If above 5%)* *(Owner: Business Head)*
+    21. Collect the token amount of Rs. 1 lakh and the KYC documents *(If the client agrees to book)* *(Owner: Sales Executive)*
+       - Note: PAN, Aadhaar and address proof
+    22. Verify the payment and issue the receipt *(Owner: Finance team)* **[within 1 working day]**
+    23. Change the CRM status to Booked *(If the receipt is issued)*
+    24. Prepare the Agreement for Sale *(Owner: Legal team)* **[within 7 days of booking]**
+    25. Follow up with the lead *(If leads who visited but have not booked)* *(Owner: Sales Executive)* **[every 3 days for 2 weeks]**
+    26. Follow up with the lead *(If leads who visited but have not booked)* *(Owner: Sales Executive)* **[once a week until day 60]**
+    27. Mark the lead Lost and record the reason *(If there is no progress after 60 days)*
+
+    ## 7. Exceptions and Troubleshooting
+    | Situation | Action | Owner | Timeline |
+    |---|---|---|---|
+    | the KYC documents are incomplete | Give the client 5 days to submit them | Sales Executive | 5 days |
+    | a payment fails or bounces | Inform the SE immediately | Finance | immediately |
+    | a payment fails or bounces | Contact the client | Sales Executive | _Not defined_ |
+
+    ## 8. Review Information
+    _Not specified_
+    warning: Step 4: owner 'Sales Executive' is not named in its quote or in your answers (inferred?)
+
+  run 5: 23/23 facts, invented owners: [], owner violations: []
+    missed: []
+
+    --- SOP from this run ---
+    # SOP: Lead Management and Site Visit Process
+
+    ## 1. Purpose
+    Describes how our sales team handles buyer leads for the Greenfield Heights project, from the first enquiry to booking.
+
+    ## 2. Scope
+    Applies to buyer leads for the Greenfield Heights project.
+
+    ## 3. Roles and Responsibilities
+    | Role | Responsibilities (from the steps) |
+    |---|---|
+    | front desk | Log every walk-in lead in the CRM |
+    | CRM | Assign each lead to a Sales Executive (SE) on a round-robin basis |
+    | assigned SE | Call the lead |
+    | SE | Try calling the lead twice more; Send the brochure on WhatsApp; Note the budget, the preferred unit size (2 BHK or 3 BHK) and the purchase timeline; Book a site visit; Send a confirmation on WhatsApp; Send a reminder; Reschedule the site visit; Share the cost sheet by email; Offer discount; Collect the token amount of Rs. 1 lakh and the KYC documents (PAN, Aadhaar and address proof); Follow up with the lead; Give the client 5 days to submit them; Contact the client; Give the client 5 days to submit them (if kYC documents are incomplete); Contact the client (if a payment fails or bounces) |
+    | Team Lead | Go through the nurture list |
+    | Site Coordinator | Arrange the cab |
+    | Sales Manager | Approve discount |
+    | Business Head | Approve discount |
+    | Finance team | Verify the payment and issue the receipt |
+    | Legal team | Prepare the Agreement for Sale |
+    | Finance | Inform the SE immediately; Inform the SE immediately (if a payment fails or bounces) |
+
+    ## 4. Prerequisites
+    _None specified_
+
+    ## 5. Definitions and Criteria
+    - Unreachable: A lead that has 3 failed call attempts and is moved to the nurture list
+    - Qualified: A lead where the budget is at least Rs. 60 lakh and the client plans to buy within 6 months
+    - Booked: CRM status once the payment receipt is issued
+
+    ## 6. Procedure
+    1. Create website and portal leads in the CRM automatically
+    2. Log every walk-in lead in the CRM *(Owner: front desk)* **[same day]**
+    3. Assign each lead to a Sales Executive (SE) on a round-robin basis *(Owner: CRM)*
+    4. Call the lead *(Owner: assigned SE)* **[within 30 minutes during working hours (10 AM to 7 PM); leads that come in after hours are called by 11 AM the next day]**
+    5. Try calling the lead twice more *(If the lead does not answer)* *(Owner: SE)* **[same day, at least 2 hours apart]**
+    6. Send the brochure on WhatsApp *(If the lead does not answer)* *(Owner: SE)*
+    7. Mark the lead Unreachable *(If 3 failed attempts)*
+    8. Move the lead to the nurture list *(If 3 failed attempts)*
+    9. Go through the nurture list *(Owner: Team Lead)* **[every Monday]**
+    10. Note the budget, the preferred unit size (2 BHK or 3 BHK) and the purchase timeline *(Owner: SE)* **[during the first call]**
+    11. Book a site visit *(If the lead is Qualified)* *(Owner: SE)* **[within 3 days]**
+    12. Arrange the cab *(If the client asks for a pickup)* *(Owner: Site Coordinator)*
+    13. Send a confirmation on WhatsApp *(Owner: SE)* **[24 hours before the visit]**
+    14. Send a reminder *(Owner: SE)* **[2 hours before]**
+    15. Reschedule the site visit *(If the client misses the visit)* *(Owner: SE)*
+    16. Move the lead back to Nurture *(If they miss it again)*
+    17. Enter feedback in the CRM **[same day]**
+    18. Share the cost sheet by email *(Owner: SE)* **[within 24 hours of the visit]**
+    19. Offer discount *(If up to 2%)* *(Owner: SE)*
+    20. Approve discount *(If above 2% and up to 5%)* *(Owner: Sales Manager)*
+    21. Approve discount *(If above 5%)* *(Owner: Business Head)*
+    22. Collect the token amount of Rs. 1 lakh and the KYC documents (PAN, Aadhaar and address proof) *(If the client agrees to book)* *(Owner: SE)*
+    23. Verify the payment and issue the receipt *(Owner: Finance team)* **[within 1 working day]**
+    24. Change the CRM status to Booked *(If the receipt is issued)*
+    25. Prepare the Agreement for Sale *(Owner: Legal team)* **[within 7 days of booking]**
+    26. Follow up with the lead *(If leads who visited but have not booked)* *(Owner: SE)* **[every 3 days for 2 weeks, and then once a week until day 60]**
+    27. Mark the lead Lost *(If there is no progress after 60 days)*
+    28. Record the reason *(If there is no progress after 60 days)*
+    29. Give the client 5 days to submit them *(If the KYC documents are incomplete)* *(Owner: SE)* **[5 days]**
+    30. Inform the SE immediately *(If a payment fails or bounces)* *(Owner: Finance)*
+    31. Contact the client *(If a payment fails or bounces)* *(Owner: SE)*
+
+    ## 7. Exceptions and Troubleshooting
+    | Situation | Action | Owner | Timeline |
+    |---|---|---|---|
+    | KYC documents are incomplete | Give the client 5 days to submit them | SE | 5 days |
+    | A payment fails or bounces | Inform the SE immediately | Finance | _Not defined_ |
+    | A payment fails or bounces | Contact the client | SE | _Not defined_ |
+
+    ## 8. Review Information
+    _Not specified_
+    warning: Step 6: owner 'SE' is not named in its quote or in your answers (inferred?)
+    warning: Step 14: owner 'SE' is not named in its quote or in your answers (inferred?)
+
+  run 6: 22/23 facts, invented owners: [], owner violations: []
+    missed: ['CRM assigns lead round-robin']
+
+    --- SOP from this run ---
+    # SOP: Greenfield Heights Lead Management and Site Visit Process
+
+    ## 1. Purpose
+    Handles buyer leads for the Greenfield Heights project, from the first enquiry to booking.
+
+    ## 2. Scope
+    Applies to buyer leads for the Greenfield Heights project handled by the sales team.
+
+    ## 3. Roles and Responsibilities
+    | Role | Responsibilities (from the steps) |
+    |---|---|
+    | front desk | Log every walk-in lead in the CRM on the same day |
+    | Sales Executive | Call the lead; Call the lead; Try calling the lead twice more; Send the brochure on WhatsApp; Note the budget, the preferred unit size (2 BHK or 3 BHK) and the purchase timeline; Book a site visit; Send a confirmation on WhatsApp; Send a reminder; Reschedule the visit; Share the cost sheet by email; Offer the discount directly; Collect the token amount of Rs. 1 lakh and the KYC documents (PAN, Aadhaar and address proof); Follow up with leads who visited but have not booked; Follow up with leads; Give the client 5 days to submit KYC documents; Contact the client; Give the client 5 days to submit them (if the KYC documents are incomplete); Contacts the client (if a payment fails or bounces) |
+    | Team Lead | Go through the nurture list |
+    | Site Coordinator | Arrange the cab |
+    | Sales Manager | Approve the discount |
+    | Business Head | Approve the discount |
+    | Finance team | Verify the payment; Issue the receipt |
+    | Legal team | Prepare the Agreement for Sale |
+    | Finance | Inform the SE immediately; Informs the SE immediately (if a payment fails or bounces) |
+
+    ## 4. Prerequisites
+    _None specified_
+
+    ## 5. Definitions and Criteria
+    - Unreachable: lead marked as such after 3 failed contact attempts and moved to the nurture list
+    - Qualified: lead whose budget is at least Rs. 60 lakh and who plans to buy within 6 months
+
+    ## 6. Procedure
+    1. Log every walk-in lead in the CRM on the same day *(If leads arrive from walk-ins at the site office)* *(Owner: front desk)* **[the same day]**
+    2. Call the lead *(If working hours)* *(Owner: Sales Executive)* **[within 30 minutes]**
+    3. Call the lead *(If leads that come in after hours)* *(Owner: Sales Executive)* **[by 11 AM the next day]**
+    4. Try calling the lead twice more *(If the lead does not answer)* *(Owner: Sales Executive)* **[at least 2 hours apart, on the same day]**
+    5. Send the brochure on WhatsApp *(If the lead does not answer)* *(Owner: Sales Executive)*
+    6. Mark the lead Unreachable *(If 3 failed attempts)*
+    7. Move the lead to the nurture list *(If 3 failed attempts)*
+    8. Go through the nurture list *(Owner: Team Lead)* **[every Monday]**
+    9. Note the budget, the preferred unit size (2 BHK or 3 BHK) and the purchase timeline *(If during the first call)* *(Owner: Sales Executive)*
+    10. Book a site visit *(If qualified leads)* *(Owner: Sales Executive)* **[within 3 days]**
+    11. Arrange the cab *(If the client asks for a pickup)* *(Owner: Site Coordinator)*
+    12. Send a confirmation on WhatsApp *(Owner: Sales Executive)* **[24 hours before the visit]**
+    13. Send a reminder *(Owner: Sales Executive)* **[2 hours before]**
+    14. Reschedule the visit *(If the client misses the visit)* *(Owner: Sales Executive)*
+    15. Move the lead back to Nurture *(If they miss it again)*
+    16. Enter feedback in the CRM *(If after a visit)* **[the same day]**
+    17. Share the cost sheet by email *(Owner: Sales Executive)* **[within 24 hours of the visit]**
+    18. Offer the discount directly *(If up to 2%)* *(Owner: Sales Executive)*
+    19. Approve the discount *(If above 2% and up to 5%)* *(Owner: Sales Manager)*
+    20. Approve the discount *(If above 5%)* *(Owner: Business Head)*
+    21. Collect the token amount of Rs. 1 lakh and the KYC documents (PAN, Aadhaar and address proof) *(If the client agrees to book)* *(Owner: Sales Executive)*
+    22. Verify the payment *(Owner: Finance team)* **[within 1 working day]**
+    23. Issue the receipt *(Owner: Finance team)* **[within 1 working day]**
+    24. Change the CRM status to Booked *(If the receipt is issued)*
+    25. Prepare the Agreement for Sale *(Owner: Legal team)* **[within 7 days of booking]**
+    26. Follow up with leads who visited but have not booked *(Owner: Sales Executive)* **[every 3 days for 2 weeks]**
+    27. Follow up with leads *(Owner: Sales Executive)* **[once a week until day 60]**
+    28. Mark the lead Lost *(If there is no progress after 60 days)*
+    29. Record the reason *(If there is no progress after 60 days)*
+    30. Give the client 5 days to submit KYC documents *(If the KYC documents are incomplete)* *(Owner: Sales Executive)* **[5 days]**
+    31. Inform the SE immediately *(If a payment fails or bounces)* *(Owner: Finance)* **[immediately]**
+    32. Contact the client *(If a payment fails or bounces)* *(Owner: Sales Executive)*
+
+    ## 7. Exceptions and Troubleshooting
+    | Situation | Action | Owner | Timeline |
+    |---|---|---|---|
+    | the KYC documents are incomplete | Give the client 5 days to submit them | Sales Executive | 5 days |
+    | a payment fails or bounces | Informs the SE immediately | Finance | immediately |
+    | a payment fails or bounces | Contacts the client | Sales Executive | _Not defined_ |
+
+    ## 8. Review Information
+    _Not specified_
+    warning: Step 3: owner 'Sales Executive' is not named in its quote or in your answers (inferred?)
+    warning: Step 5: owner 'Sales Executive' is not named in its quote or in your answers (inferred?)
+    warning: Step 13: owner 'Sales Executive' is not named in its quote or in your answers (inferred?)
+    warning: Step 27: owner 'Sales Executive' is not named in its quote or in your answers (inferred?)
+
+  run 7: 23/23 facts, invented owners: [], owner violations: []
+    missed: []
+
+    --- SOP from this run ---
+    # SOP: Lead Management and Site Visit Process
+
+    ## 1. Purpose
+    Handles buyer leads for the Greenfield Heights project, from the first enquiry to booking
+
+    ## 2. Scope
+    Buyer leads for the Greenfield Heights project
+
+    ## 3. Roles and Responsibilities
+    | Role | Responsibilities (from the steps) |
+    |---|---|
+    | front desk | Log every walk-in lead in the CRM |
+    | CRM | Assign each lead to a Sales Executive on a round-robin basis |
+    | assigned SE | Call the lead |
+    | SE | Try calling twice more on the same day; Send the brochure on WhatsApp; Note the budget, the preferred unit size (2 BHK or 3 BHK) and the purchase timeline; Book a site visit; Send a confirmation on WhatsApp; Send a reminder; Share the cost sheet by email; Approve discount; Collect the token amount of Rs. 1 lakh and the KYC documents (PAN, Aadhaar and address proof); Follow up with the lead; Reschedule the visit once (if the client misses the visit); Give the client 5 days to submit them (if the KYC documents are incomplete); Contact the client (if a payment fails or bounces) |
+    | Team Lead | Go through the nurture list |
+    | Site Coordinator | Arrange the cab |
+    | Sales Manager | Approve discount |
+    | Business Head | Approve discount |
+    | Finance team | Verify the payment and issue the receipt |
+    | Legal team | Prepare the Agreement for Sale |
+    | Finance | Inform the SE immediately (if a payment fails or bounces) |
+
+    ## 4. Prerequisites
+    _None specified_
+
+    ## 5. Definitions and Criteria
+    - Qualified: the budget is at least Rs. 60 lakh and the client plans to buy within 6 months
+    - Unreachable: status for leads with 3 failed contact attempts
+    - Booked: CRM status once the payment receipt is issued
+
+    ## 6. Procedure
+    1. Create website and portal leads in the CRM automatically
+    2. Log every walk-in lead in the CRM *(Owner: front desk)* **[on the same day]**
+    3. Assign each lead to a Sales Executive on a round-robin basis *(Owner: CRM)*
+    4. Call the lead *(Owner: assigned SE)* **[within 30 minutes during working hours (10 AM to 7 PM)]**
+       - Note: Leads that come in after hours are called by 11 AM the next day.
+    5. Try calling twice more on the same day *(If the lead does not answer)* *(Owner: SE)* **[at least 2 hours apart]**
+    6. Send the brochure on WhatsApp *(If the lead does not answer)* *(Owner: SE)*
+    7. Mark the lead Unreachable and move it to the nurture list *(If 3 failed attempts)*
+    8. Go through the nurture list *(Owner: Team Lead)* **[every Monday]**
+    9. Note the budget, the preferred unit size (2 BHK or 3 BHK) and the purchase timeline *(Owner: SE)*
+    10. Book a site visit *(If the budget is at least Rs. 60 lakh and the client plans to buy within 6 months)* *(Owner: SE)* **[within 3 days]**
+    11. Arrange the cab *(If the client asks for a pickup)* *(Owner: Site Coordinator)*
+    12. Send a confirmation on WhatsApp *(Owner: SE)* **[24 hours before the visit]**
+    13. Send a reminder *(Owner: SE)* **[2 hours before]**
+    14. Enter feedback in the CRM **[the same day]**
+    15. Share the cost sheet by email *(Owner: SE)* **[within 24 hours of the visit]**
+    16. Approve discount *(If up to 2%)* *(Owner: SE)*
+    17. Approve discount *(If above 2% and up to 5%)* *(Owner: Sales Manager)*
+    18. Approve discount *(If above 5%)* *(Owner: Business Head)*
+    19. Collect the token amount of Rs. 1 lakh and the KYC documents (PAN, Aadhaar and address proof) *(If the client agrees to book)* *(Owner: SE)*
+    20. Verify the payment and issue the receipt *(Owner: Finance team)* **[within 1 working day]**
+    21. Change the CRM status to Booked
+    22. Prepare the Agreement for Sale *(Owner: Legal team)* **[within 7 days of booking]**
+    23. Follow up with the lead *(If leads who visited but have not booked)* *(Owner: SE)* **[every 3 days for 2 weeks, and then once a week until day 60]**
+    24. Mark the lead Lost and record the reason *(If there is no progress after 60 days)*
+
+    ## 7. Exceptions and Troubleshooting
+    | Situation | Action | Owner | Timeline |
+    |---|---|---|---|
+    | the client misses the visit | Reschedule the visit once | SE | _Not defined_ |
+    | the client misses the visit again | Move the lead back to Nurture | _Not defined_ | _Not defined_ |
+    | the KYC documents are incomplete | Give the client 5 days to submit them | SE | _Not defined_ |
+    | a payment fails or bounces | Inform the SE immediately | Finance | _Not defined_ |
+    | a payment fails or bounces | Contact the client | SE | _Not defined_ |
+
+    ## 8. Review Information
+    _Not specified_
+    warning: Step 10: owner 'SE' is not named in its quote or in your answers (inferred?)
+
+  run 8: 22/23 facts, invented owners: [], owner violations: []
+    missed: ['CRM assigns lead round-robin']
+
+    --- SOP from this run ---
+    # SOP: Lead Management and Site Visit Process
+
+    ## 1. Purpose
+    Describes how our sales team handles buyer leads for the Greenfield Heights project, from the first enquiry to booking.
+
+    ## 2. Scope
+    Applies to buyer leads for the Greenfield Heights project.
+
+    ## 3. Roles and Responsibilities
+    | Role | Responsibilities (from the steps) |
+    |---|---|
+    | front desk | Log every walk-in lead in the CRM |
+    | Sales Executive | Call the lead; Call the lead; Try twice more on the same day; Send the brochure on WhatsApp; Note the budget, the preferred unit size (2 BHK or 3 BHK) and the purchase timeline; Book a site visit; Send a confirmation on WhatsApp; Send a reminder; Reschedule the visit; Share the cost sheet by email; Offer discount directly; Collect the token amount of Rs. 1 lakh and the KYC documents (PAN, Aadhaar and address proof); Follow up with leads who visited but have not booked; Give the client 5 days to submit them (if kYC documents are incomplete); Contact the client (if a payment fails or bounces) |
+    | Team Lead | Go through the nurture list |
+    | Site Coordinator | Arrange the cab |
+    | Sales Manager | Approve discount |
+    | Business Head | Approve discount |
+    | Finance team | Verify the payment and issue the receipt |
+    | Legal team | Prepare the Agreement for Sale |
+    | Finance | Inform the SE immediately (if a payment fails or bounces) |
+
+    ## 4. Prerequisites
+    _None specified_
+
+    ## 5. Definitions and Criteria
+    - Unreachable: Lead is marked Unreachable and moved to the nurture list after 3 failed attempts
+    - Qualified: A lead is Qualified if the budget is at least Rs. 60 lakh and the client plans to buy within 6 months
+    - Booked: CRM status is changed to Booked once the receipt is issued
+    - Lost: Lead is marked Lost if there is no progress after 60 days
+
+    ## 6. Procedure
+    1. Log every walk-in lead in the CRM *(Owner: front desk)* **[on the same day]**
+    2. Call the lead *(If during working hours (10 AM to 7 PM))* *(Owner: Sales Executive)* **[within 30 minutes]**
+    3. Call the lead *(If that come in after hours)* *(Owner: Sales Executive)* **[by 11 AM the next day]**
+    4. Try twice more on the same day *(If the lead does not answer)* *(Owner: Sales Executive)* **[at least 2 hours apart]**
+    5. Send the brochure on WhatsApp *(If the lead does not answer)* *(Owner: Sales Executive)*
+    6. Mark the lead Unreachable and move to the nurture list *(If after 3 failed attempts)*
+    7. Go through the nurture list *(Owner: Team Lead)* **[every Monday]**
+    8. Note the budget, the preferred unit size (2 BHK or 3 BHK) and the purchase timeline *(If during the first call)* *(Owner: Sales Executive)*
+    9. Book a site visit *(If for qualified leads)* *(Owner: Sales Executive)* **[within 3 days]**
+    10. Arrange the cab *(If the client asks for a pickup)* *(Owner: Site Coordinator)*
+    11. Send a confirmation on WhatsApp *(Owner: Sales Executive)* **[24 hours before the visit]**
+    12. Send a reminder *(Owner: Sales Executive)* **[2 hours before]**
+    13. Reschedule the visit *(If the client misses the visit)* *(Owner: Sales Executive)*
+       - Note: Reschedules once
+    14. Move the lead back to Nurture *(If they miss it again)*
+    15. Enter feedback in the CRM *(If after a visit)* **[the same day]**
+    16. Share the cost sheet by email *(Owner: Sales Executive)* **[within 24 hours of the visit]**
+    17. Offer discount directly *(If up to 2%)* *(Owner: Sales Executive)*
+    18. Approve discount *(If above 2% and up to 5%)* *(Owner: Sales Manager)*
+    19. Approve discount *(If above 5%)* *(Owner: Business Head)*
+    20. Collect the token amount of Rs. 1 lakh and the KYC documents (PAN, Aadhaar and address proof) *(If the client agrees to book)* *(Owner: Sales Executive)*
+    21. Verify the payment and issue the receipt *(Owner: Finance team)* **[within 1 working day]**
+    22. Change the CRM status to Booked *(If the receipt is issued)*
+    23. Prepare the Agreement for Sale *(Owner: Legal team)* **[within 7 days of booking]**
+    24. Follow up with leads who visited but have not booked *(Owner: Sales Executive)* **[every 3 days for 2 weeks, and then once a week until day 60]**
+    25. Mark the lead Lost and record the reason *(If there is no progress after 60 days)*
+
+    ## 7. Exceptions and Troubleshooting
+    | Situation | Action | Owner | Timeline |
+    |---|---|---|---|
+    | KYC documents are incomplete | Give the client 5 days to submit them | Sales Executive | 5 days |
+    | A payment fails or bounces | Inform the SE immediately | Finance | immediately |
+    | A payment fails or bounces | Contact the client | Sales Executive | _Not defined_ |
+
+    ## 8. Review Information
+    _Not specified_
+    warning: Step 3: owner 'Sales Executive' is not named in its quote or in your answers (inferred?)
+
+  run 9: 23/23 facts, invented owners: [], owner violations: []
+    missed: []
+
+    --- SOP from this run ---
+    # SOP: Lead Management and Site Visit Process
+
+    ## 1. Purpose
+    Describes how our sales team handles buyer leads for the Greenfield Heights project, from the first enquiry to booking.
+
+    ## 2. Scope
+    Applies to buyer leads for the Greenfield Heights project.
+
+    ## 3. Roles and Responsibilities
+    | Role | Responsibilities (from the steps) |
+    |---|---|
+    | front desk | Log every walk-in lead in the CRM |
+    | CRM | Assign each lead to a Sales Executive (SE) |
+    | assigned SE | Call the lead; Call the lead |
+    | SE | Try twice more on the same day; Send the brochure on WhatsApp; Note the budget, the preferred unit size (2 BHK or 3 BHK) and the purchase timeline; Book a site visit; Send a confirmation on WhatsApp; Send a reminder; Reschedule the visit; Share the cost sheet by email; Offer discount directly; Collect the token amount of Rs. 1 lakh and the KYC documents (PAN, Aadhaar and address proof); Follow up with the lead; Give the client time to submit them (if the KYC documents are incomplete); Contact the client (if a payment fails or bounces) |
+    | Site Coordinator | Arrange the cab |
+    | Sales Manager | Approve discount |
+    | Business Head | Approve discount |
+    | Finance team | Verify the payment and issue the receipt |
+    | Legal team | Prepare the Agreement for Sale |
+    | Team Lead | Go through the nurture list (if leads are in the nurture list) |
+    | Finance | Inform the SE immediately (if a payment fails or bounces) |
+
+    ## 4. Prerequisites
+    _None specified_
+
+    ## 5. Definitions and Criteria
+    - Unreachable: Lead marked as such after 3 failed contact attempts and moved to the nurture list
+    - Qualified: A lead where the budget is at least Rs. 60 lakh and the client plans to buy within 6 months
+    - Booked: CRM status changed once the receipt is issued
+    - Lost: Lead marked as such if there is no progress after 60 days
+
+    ## 6. Procedure
+    1. Create website and portal leads in the CRM *(If leads arrive from the website form and Housing.com)* **[automatically]**
+    2. Log every walk-in lead in the CRM *(If walk-ins at the site office)* *(Owner: front desk)* **[the same day]**
+    3. Assign each lead to a Sales Executive (SE) *(Owner: CRM)*
+       - Note: on a round-robin basis
+    4. Call the lead *(If during working hours (10 AM to 7 PM))* *(Owner: assigned SE)* **[within 30 minutes]**
+    5. Call the lead *(If leads that come in after hours)* *(Owner: assigned SE)* **[by 11 AM the next day]**
+    6. Try twice more on the same day *(If the lead does not answer)* *(Owner: SE)* **[at least 2 hours apart]**
+    7. Send the brochure on WhatsApp *(If the lead does not answer)* *(Owner: SE)*
+    8. Mark the lead Unreachable *(If after 3 failed attempts)*
+    9. Move the lead to the nurture list *(If after 3 failed attempts)*
+    10. Note the budget, the preferred unit size (2 BHK or 3 BHK) and the purchase timeline *(If during the first call)* *(Owner: SE)*
+    11. Qualify the lead *(If the budget is at least Rs. 60 lakh and the client plans to buy within 6 months)*
+    12. Keep the lead in Nurture *(If everyone else)*
+    13. Book a site visit *(If for qualified leads)* *(Owner: SE)* **[within 3 days]**
+    14. Arrange the cab *(If the client asks for a pickup)* *(Owner: Site Coordinator)*
+    15. Send a confirmation on WhatsApp *(Owner: SE)* **[24 hours before the visit]**
+    16. Send a reminder *(Owner: SE)* **[2 hours before]**
+    17. Reschedule the visit *(If the client misses the visit)* *(Owner: SE)*
+       - Note: once
+    18. Enter feedback in the CRM *(If after a visit)* **[the same day]**
+    19. Share the cost sheet by email *(Owner: SE)* **[within 24 hours of the visit]**
+    20. Offer discount directly *(If up to 2%)* *(Owner: SE)*
+    21. Approve discount *(If above 2% and up to 5%)* *(Owner: Sales Manager)*
+    22. Approve discount *(If above 5%)* *(Owner: Business Head)*
+    23. Collect the token amount of Rs. 1 lakh and the KYC documents (PAN, Aadhaar and address proof) *(If the client agrees to book)* *(Owner: SE)*
+    24. Verify the payment and issue the receipt *(Owner: Finance team)* **[within 1 working day]**
+    25. Change the CRM status to Booked *(If the receipt is issued)*
+    26. Prepare the Agreement for Sale *(Owner: Legal team)* **[within 7 days of booking]**
+    27. Follow up with the lead *(If leads who visited but have not booked)* *(Owner: SE)* **[every 3 days for 2 weeks, and then once a week until day 60]**
+    28. Mark the lead Lost *(If there is no progress after 60 days)*
+    29. Record the reason *(If there is no progress after 60 days)*
+
+    ## 7. Exceptions and Troubleshooting
+    | Situation | Action | Owner | Timeline |
+    |---|---|---|---|
+    | leads are in the nurture list | Go through the nurture list | Team Lead | every Monday |
+    | the client misses the visit again | Move the lead back to Nurture | _Not defined_ | _Not defined_ |
+    | the KYC documents are incomplete | Stop the booking from going ahead | _Not defined_ | _Not defined_ |
+    | the KYC documents are incomplete | Give the client time to submit them | SE | 5 days |
+    | a payment fails or bounces | Inform the SE immediately | Finance | immediately |
+    | a payment fails or bounces | Contact the client | SE | _Not defined_ |
+
+    ## 8. Review Information
+    _Not specified_
+    warning: Step 5: owner 'assigned SE' is not named in its quote or in your answers (inferred?)
+    warning: Step 7: owner 'SE' is not named in its quote or in your answers (inferred?)
+    warning: Step 16: owner 'SE' is not named in its quote or in your answers (inferred?)
+
+  run 10: 23/23 facts, invented owners: [], owner violations: []
+    missed: []
+
+    --- SOP from this run ---
+    # SOP: Lead Management and Site Visit Process
+
+    ## 1. Purpose
+    Handles buyer leads for the Greenfield Heights project, from the first enquiry to booking.
+
+    ## 2. Scope
+    Buyer leads for the Greenfield Heights project
+
+    ## 3. Roles and Responsibilities
+    | Role | Responsibilities (from the steps) |
+    |---|---|
+    | front desk | Log every walk-in lead in the CRM |
+    | Sales Executive | Call the lead; Call the lead; Try calling the lead twice more; Send the brochure on WhatsApp; Note the budget, the preferred unit size (2 BHK or 3 BHK) and the purchase timeline; Book a site visit; Send a confirmation on WhatsApp; Send a reminder; Reschedule the visit once; Share the cost sheet by email; Offer the discount; Collect the token amount of Rs. 1 lakh and the KYC documents (PAN, Aadhaar and address proof); Follow up with the lead; Give the client 5 days to submit them; Contact the client |
+    | Team Lead | Go through the nurture list |
+    | Site Coordinator | Arrange the cab |
+    | Sales Manager | Approve the discount |
+    | Business Head | Approve the discount |
+    | Finance team | Verify the payment and issue the receipt; Inform the SE immediately |
+    | Legal team | Prepare the Agreement for Sale |
+
+    ## 4. Prerequisites
+    _None specified_
+
+    ## 5. Definitions and Criteria
+    - Unreachable: A lead that did not answer after 3 failed attempts and is moved to the nurture list
+    - Qualified: A lead where the budget is at least Rs. 60 lakh and the client plans to buy within 6 months
+    - Booked: CRM status changed once the receipt is issued
+    - Lost: Lead status after 60 days with no progress
+
+    ## 6. Procedure
+    1. Create website and portal leads in the CRM automatically
+    2. Log every walk-in lead in the CRM *(Owner: front desk)* **[the same day]**
+    3. Assign each lead to a Sales Executive (SE) on a round-robin basis
+    4. Call the lead *(If during working hours (10 AM to 7 PM))* *(Owner: Sales Executive)* **[within 30 minutes]**
+    5. Call the lead *(If leads that come in after hours)* *(Owner: Sales Executive)* **[by 11 AM the next day]**
+    6. Try calling the lead twice more *(If the lead does not answer)* *(Owner: Sales Executive)* **[at least 2 hours apart on the same day]**
+    7. Send the brochure on WhatsApp *(If the lead does not answer)* *(Owner: Sales Executive)*
+    8. Mark the lead Unreachable and move it to the nurture list *(If after 3 failed attempts)*
+    9. Go through the nurture list *(Owner: Team Lead)* **[every Monday]**
+    10. Note the budget, the preferred unit size (2 BHK or 3 BHK) and the purchase timeline *(If during the first call)* *(Owner: Sales Executive)*
+    11. Book a site visit *(If the budget is at least Rs. 60 lakh and the client plans to buy within 6 months)* *(Owner: Sales Executive)* **[within 3 days]**
+    12. Arrange the cab *(If the client asks for a pickup)* *(Owner: Site Coordinator)*
+    13. Send a confirmation on WhatsApp *(Owner: Sales Executive)* **[24 hours before the visit]**
+    14. Send a reminder *(Owner: Sales Executive)* **[2 hours before]**
+    15. Reschedule the visit once *(If the client misses the visit)* *(Owner: Sales Executive)*
+    16. Move the lead back to Nurture *(If they miss it again)*
+    17. Enter feedback in the CRM *(If after a visit)* **[the same day]**
+    18. Share the cost sheet by email *(Owner: Sales Executive)* **[within 24 hours of the visit]**
+    19. Offer the discount *(If up to 2%)* *(Owner: Sales Executive)*
+    20. Approve the discount *(If above 2% and up to 5%)* *(Owner: Sales Manager)*
+    21. Approve the discount *(If above 5%)* *(Owner: Business Head)*
+    22. Collect the token amount of Rs. 1 lakh and the KYC documents (PAN, Aadhaar and address proof) *(If the client agrees to book)* *(Owner: Sales Executive)*
+    23. Verify the payment and issue the receipt *(Owner: Finance team)* **[within 1 working day]**
+    24. Change the CRM status to Booked *(If the receipt is issued)*
+    25. Prepare the Agreement for Sale *(Owner: Legal team)* **[within 7 days of booking]**
+    26. Follow up with the lead *(If leads who visited but have not booked)* *(Owner: Sales Executive)* **[every 3 days for 2 weeks, and then once a week until day 60]**
+    27. Mark the lead Lost and record the reason *(If there is no progress after 60 days)*
+    28. Give the client 5 days to submit them *(If the KYC documents are incomplete)* *(Owner: Sales Executive)*
+    29. Inform the SE immediately *(If a payment fails or bounces)* *(Owner: Finance team)*
+    30. Contact the client *(If a payment fails or bounces)* *(Owner: Sales Executive)*
+
+    ## 7. Exceptions and Troubleshooting
+    | Situation | Action | Owner | Timeline |
+    |---|---|---|---|
+    | the KYC documents are incomplete | _Not defined_ | _Not defined_ | _Not defined_ |
+
+    ## 8. Review Information
+    _Not specified_
+    warning: Step 5: owner 'Sales Executive' is not named in its quote or in your answers (inferred?)
+    warning: Step 7: owner 'Sales Executive' is not named in its quote or in your answers (inferred?)
+    warning: Step 14: owner 'Sales Executive' is not named in its quote or in your answers (inferred?)
+
+
+== greenfield_pdf (held-out) ==
+recall: 98% average over 10 run(s)
+invented owners: 0 | owner-rule violations: 0 | avg quote warnings: 1.6
+  MISSED 4/10 runs: CRM assigns lead round-robin
+
+
