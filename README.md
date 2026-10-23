@@ -50,9 +50,6 @@ and quote warnings. Add a case by copying an existing one.
 | employee_onboarding | 10 | 100% | 0 | 0.0 |
 | greenfield_pdf | 10 | 98% | 0 | 1.6 |
 
-(Fill the empty rows from `eval_out.txt`.)
-
-
 
 ## Known limitations
 - The eval checks extraction only (not the refine step) and uses keyword matching, so a
