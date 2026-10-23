@@ -46,11 +46,13 @@ and quote warnings. Add a case by copying an existing one.
 ### Results
 | Case | Runs | Recall | Owner violations | Avg quote warnings |
 |---|---|---|---|---|
-| real_estate_crm | | | | |
-| employee_onboarding | | | | |
+| real_estate_crm | 10 | 98% | 0 | 0.6 |
+| employee_onboarding | 10 | 100% | 0 | 0.0 |
 | greenfield_pdf | 10 | 98% | 0 | 1.6 |
 
 (Fill the empty rows from `eval_out.txt`.)
+
+
 
 ## Known limitations
 - The eval checks extraction only (not the refine step) and uses keyword matching, so a
